@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<books 
+xmlns="http://www.it-academy.by/BooksSchema"  
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.it-academy.by/BooksSchema BooksSchema.xsd">
+	<book id="1">
+		<title>First Book</title>
+		<publisher>Publisher1</publisher>
+		<authors>
+			<author>
+				<first_name>Author1_first</first_name>
+				<middle_name>Author1_middle</middle_name>
+				<last_name>Author1_second</last_name>
+			</author>
+		</authors>
+	</book>
+	<book id="2">
+		<title>Second Book</title>
+		<publisher>Publisher2</publisher>
+		<authors>
+			<author>
+				<first_name>Author2_first</first_name>
+				<middle_name>Author2_middle</middle_name>
+				<last_name>Author2_second</last_name>
+			</author>
+			<author>
+				<first_name>Author22_first</first_name>
+				<middle_name>Author22_middle</middle_name>
+				<last_name>Author22_second</last_name>
+			</author>
+		</authors>
+	</book>	
+</books>
